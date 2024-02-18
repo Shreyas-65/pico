@@ -1,0 +1,50 @@
+from picozero import pico_led, LED
+from time import sleep
+
+#pico_led.on()
+#sleep(3)
+#pico_led.off()
+
+firefly = LED(13)
+
+while True:
+    firefly.on()
+    sleep(0.5)
+    firefly.off()
+    sleep(0.25)
+    firefly.on()
+    sleep(0.5)
+    firefly.off()
+    sleep(0.25)
+    firefly.on()
+    sleep(0.5)
+    firefly.off()
+    sleep(0.25)
+
+    firefly.on()
+    sleep(1)
+    firefly.off()
+    sleep(0.25)
+    firefly.on()
+    sleep(1)
+    firefly.off()
+    sleep(0.25)
+    firefly.on()
+    sleep(1)
+    firefly.off()
+    sleep(0.25)
+
+    firefly.on()
+    sleep(0.5)
+    firefly.off()
+    sleep(0.25)
+    firefly.on()
+    sleep(0.5)
+    firefly.off()
+    sleep(0.25)
+    firefly.on()
+    sleep(0.5)
+    firefly.off()
+    sleep(0.25)
+
+    sleep(3)
